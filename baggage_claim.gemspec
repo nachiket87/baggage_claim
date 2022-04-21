@@ -8,17 +8,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nachiket Pusalkar"]
   spec.email         = ["33430835+nachiket87@users.noreply.github.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Additional methods for country or location strings to find the demoyns and adjectivals"
+  spec.description   = "Rails lacks string helpers and inflectors for certain actions related to location. This gem provides that."
+  spec.homepage      = "https://github.com/nachiket87/baggage_claim"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/nachiket87/baggage_claim"
+  spec.metadata["changelog_uri"] = "https://github.com/nachiket87/baggage_claim/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

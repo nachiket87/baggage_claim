@@ -8,6 +8,11 @@ class BaggageClaimTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    x = BaggageClaim::Classifier.new('united states')
+    assert_equal  "American", x.adjectival
+  end
+
+  def test_string_method
+    assert_equal  "Indian", "India".adjectival
   end
 end
