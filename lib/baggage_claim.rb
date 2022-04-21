@@ -1,13 +1,17 @@
 # frozen_string_literal: true
 
 require_relative 'baggage_claim/version'
-require 'active_support/inflections'
+require 'active_support'
 require 'YAML'
 
 module BaggageClaim
+
   class Error < StandardError; end
   class Classifier
-    include ActiveSupport::Inflector
+
+    include ::ActiveSupport::Inflector
+
+    attr_accessor :country_name
 
     def initialize(country_name)
       @country_name = country_name
